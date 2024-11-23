@@ -96,7 +96,7 @@ This is a RESTful API for a Library Management System built with PHP, the Slim F
   }
 ### Get lists of Authors
 - **Method**: `GET`
-- **Endpoint**: `/authors'
+- **Endpoint**: `/authors`
 - **Request Body**:
   ```json
   {
