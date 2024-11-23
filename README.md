@@ -54,7 +54,7 @@ This is a RESTful API for a Library Management System built with PHP, the Slim F
 
 #### **Authenticate a User**
 - **Method**: `POST`
-- **Endpoint**: '/user/authenticate`
+- **Endpoint**: `/user/authenticate`
 - **Request Body**:
   ```json
   {
@@ -81,7 +81,7 @@ This is a RESTful API for a Library Management System built with PHP, the Slim F
 ### 2. **Author Endpoints**
 #### Add a new Author
 - **Method**: `POST`
-- **Endpoint**: '/authors/add`
+- **Endpoint**: `/authors/add`
 - **Request Body**:
   ```json
   {
@@ -96,7 +96,7 @@ This is a RESTful API for a Library Management System built with PHP, the Slim F
   }
 ### Get lists of Authors
 - **Method**: `GET`
-- **Endpoint**: '/authors'
+- **Endpoint**: `/authors'
 - **Request Body**:
   ```json
   {
@@ -117,7 +117,7 @@ This is a RESTful API for a Library Management System built with PHP, the Slim F
 ### 3. **Book Endpoints**
 #### Add a new Book
 - **Method**: `POST`
-- **Endpoint**: '/books/add`
+- **Endpoint**: `/books/add`
 - **Request Body**:
   ```json
   {
@@ -126,7 +126,7 @@ This is a RESTful API for a Library Management System built with PHP, the Slim F
   }
 #### Get lists of book
 - **Method**: `POST`
-- **Endpoint**: `/books'
+- **Endpoint**: `/books`
 - **Request Body**:
   ```json
   {
@@ -148,7 +148,7 @@ This is a RESTful API for a Library Management System built with PHP, the Slim F
 ### 4. **Book-Author Relationship Endpoints**
 #### Add a Relationship Between a Book and an Author
 - **Method**: `POST`
-- **Endpoint**: `/books/authors/add'
+- **Endpoint**: `/books/authors/add`
 - **Request Body**:
   ```json
   {
@@ -164,7 +164,7 @@ This is a RESTful API for a Library Management System built with PHP, the Slim F
   }
  #### Get List of Book-Author Relationships
 - **Method**: `GET`
-- **Endpoint**: `/books/authors'
+- **Endpoint**: `/books/authors`
 - **Request Body**:
   ```json
   {
